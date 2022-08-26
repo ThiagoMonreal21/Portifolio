@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pousada Serra Verde</title>
+    <style>
+        main > h1 { margin: 0; } /* Seletor Filho */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+        div ~ h4 {font-family:'Courier New', Courier, monospace; }  /* Seletor Irmão Geral */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+        a:hover { color: blue;} /* Seletor Pseudoclasse */
+        a:active { color: crimson;} /* Seletor Pseudoclasse */
+        h2::first-letter {font-size: xx-large;} /* Seletor de Pseudoelemento */
+        ul > li::marker { color: yellow;} /* Seletor de Pseudoelemento */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+    </style>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <h1>Pousada Serra Verde</h1>
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./pousada.html">Pousada</a>
+                <a href="./reservas.html">Reservas</a>
+                <a href="./tarifas.html">Tarifas</a>
+                <a href="./chegar.html">Como Chegar</a>
+            </nav>  
+        </header>
+        <div id="lateral">
+            <div id="gradiente">
+                <h2>A pousada</h2>
+                    <div id="descrição">
+                        A Pousada Serra Verde é uma excelente opção para quem quer conhecer as belezas de Campos do Jordão e não abre mão de conforto e ótimos preços. Com excelente localização e fácil acesso, oferece aos seus hóspedes ótimas acomodações para casais, familias e grupos. Confira nossos principais atrativos e facilidades:
+                    </div>
+                    
+                    <div id="descrição">
+                        <ul>
+                            <li>Cachoeira com piscina natural</li>
+                            <li>Mini campo de futebol</li>
+                            <li>Salão de jogos</li>
+                            <li>Wi-fi em todos os chalés</li>
+                            <li>Estacionamento</li>
+                            <li>Indicação de guias turisticos</li>
+                            <li>Aluguel de bicicletas</li>
+                        </ul>
+                    </div>
+                        
+                    <h3>Veja o que a natureza reservou para nossos hóspedes!</h3>
+                    <h5>
+                        <video controls width="420" height="240">
+                            <source src="cachoeira.mp4" type="video/mp4">
+                        </video>
+                        <h3><strong>Escute a melodia de nossos pássaros!</strong></h3>
+                        <figure>
+                            <img src="canario.jpg" alt="Canário" width="250" height="180">
+                            <p></p>
+                            <audio controls>
+                                <source src="passaros.mp3" type="audio/mpeg">
+                            </audio>
+                        </figure>
+                    </h5>
+                    <h4>Desenvolvido por Tech Hotelaria</h4>
+            </div>
+        </div>
+        </main>
+</body>
+</html>

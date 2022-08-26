@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pousada Serra Verde</title>
+    <style>
+        main > h1 { margin: 0; } /* Seletor Filho */ /*EXEMPLO DE ESPECIALIZAÇÃO*/    
+        div + h4 {font-family:'Courier New', Courier, monospace; } /* Seletor Irmão Adjacente */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+        a:hover { color: blue;} /* Seletor Pseudoclasse */
+        a:active { color: crimson;} /* Seletor Pseudoclasse */
+        h2::first-letter {font-size: xx-large;} /* Seletor de Pseudoelemento */
+    </style>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <h1>Pousada Serra Verde</h1>
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./pousada.html">Pousada</a>
+                <a href="./reservas.html">Reservas</a>
+                <a href="./tarifas.html">Tarifas</a>
+                <a href="./chegar.html">Como Chegar</a>
+            </nav>  
+        </header>
+        <div id="lateral">
+            <div id="gradiente">
+                <h2>Tarifas</h2>
+                <div id="descrição">
+                    <table>
+                        <style>
+                            table, td, th { border: 1px solid black;}
+                        </style>
+                        <h3>*Diária por pessoa (preços não válidos para feriados e alta temporada).</h3>
+                        <div id="descrição">
+                            <tr><th>Chalés</th><th>Diária de Sexta à Domingo*</th><th>Diária de Domingo à Sexta*</th></tr>
+                            <tr><td>Econômico</td><td>R$ 120,00</td><td>R$ 80,00</td></tr>
+                            <tr><td>Standard</td><td>R$ 180,00</td><td>R$ 120,00</td></tr>
+                            <tr><td>Luxo</td><td>R$ 240,00</td><td>R$ 160,00</td></tr>
+                            <tr><td>Familia(até 6 pessoas)</td><td>R$ 100,00</td><td>R$ 70,00</td></tr>
+                        </div>
+                    </table>
+                </div>
+                <h4>Desenvolvido por Tech Hotelaria</h4>
+            </div>
+        </div>
+        </main>
+</body>
+</html>

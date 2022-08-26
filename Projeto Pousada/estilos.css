@@ -1,0 +1,117 @@
+.menu-principal{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    background-image: url("paisagem.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0;
+    width: 1960px;
+    height: 200px;
+}
+
+body{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("folhas.png");
+    
+}
+
+main{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    margin: 0 auto;
+    width: 1960px;
+    height: 200px;
+    position: relative;
+}
+
+#lateral{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    margin: 0 auto 0 auto;
+    width: 920px;
+    height: 200px;
+}
+
+#descrição{ 
+    width: 840px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    line-height: 140%;
+}
+
+#gradiente{
+    background-image: linear-gradient(SeaGreen, PaleGreen);
+    margin: 0;
+    width: 960px;
+    height: auto;
+    
+}
+
+nav{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: forestgreen;
+    margin: 40px 10px;
+}
+
+a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-radius: solid 8px rgb(5, 75, 5);
+    padding: 5px 45px;
+    margin: 40px 10px;
+    color: green;
+}
+
+h1{ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: forestgreen;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: seagreen;
+}
+
+figure, h5{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    text-align: center;
+}
+
+p, ol, div{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    color: black;
+}
+
+table{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+th{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    background-color: seagreen;
+}
+td{ /*EXEMPLO DE GENERALIZAÇÃO*/
+    background-color: white;
+}
+
+

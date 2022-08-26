@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pousada Serra Verde</title>
+    <style>
+        main > h1 { margin: 0; } /* Seletor Filho */ /*EXEMPLO DE ESPECIALIZAÇÃO*/     
+        div + h4 {font-family:'Courier New', Courier, monospace; } /* Seletor Irmão Adjacente */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+        a:hover { color: blue;} /* Seletor Pseudoclasse */
+        a:active { color: crimson;} /* Seletor Pseudoclasse */
+        h2::first-letter {font-size: xx-large;} /* Seletor de Pseudoelemento */
+    </style>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <h1>Pousada Serra Verde</h1>
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./pousada.html">Pousada</a>
+                <a href="./reservas.html">Reservas</a>
+                <a href="./tarifas.html">Tarifas</a>
+                <a href="./chegar.html">Como Chegar</a>
+            </nav>  
+        </header>
+        <div id="lateral">
+            <div id="gradiente">
+                <h2>Tranquilidade e contato com a natureza ao seu alcance</h2>
+                    <div id="descrição">
+                        A região de 
+                        <strong>Campos do Jordão</strong>
+                        é rica em roteiros deslumbrantes em que a natureza se mostra magnifica a todo instante. Quem passa por aqui, além de desfrutar das maravilhas da Serra da Mantiqueira, também poderá se deliciar com a rica gastronomia da cidade mais charmosa do Brasil.
+                    </div>
+                        <h3>Venha se hospedar na Pousada Serra Verde!</h3>
+                    <figure>
+                        <img src="foto1.jpg" alt="Chalés" width="280" height="150">
+                        <img src="foto2.jpg" alt="Cachoeira" width="280" height="150">
+                        <img src="foto3.jpg" alt="Salão de jogos" width="180" height="150">
+                    </figure>
+                    <div id="descrição">
+                        <strong>Entre em contato:</strong>
+                    </div>
+                    <div id="descrição">
+                            <p>Telefone: (12) 4321-1234</p>
+                            <P>Email: atendimento@pousadaserraverde.tur.br</P>
+                            <p>Estrada dos pinheiros Km 7,5</p>
+                            <p>Campos do Jordão - SP</p>
+                    </div>
+                    <h4>Desenvolvido por Tech Hotelaria</h4>
+            </div>
+        </div>
+        </main> 
+</body>
+</html>

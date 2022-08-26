@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pousada Serra Verde</title>
+    <style>
+        main > h1 { margin: 0; } /* Seletor Filho */ /*EXEMPLO DE ESPECIALIZAÇÃO*/ 
+        div + h4 {font-family:'Courier New', Courier, monospace; }  /* Seletor Irmão Adjacente */ /*EXEMPLO DE ESPECIALIZAÇÃO*/
+        a:hover { color: blue;} /* Seletor Pseudoclasse */
+        a:active { color: crimson;} /* Seletor Pseudoclasse */
+        h2::first-letter {font-size: xx-large;} /* Seletor de Pseudoelemento */
+    </style>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <h1>Pousada Serra Verde</h1>
+                <nav>
+                    <a href="./home.html">Home</a>
+                    <a href="./pousada.html">Pousada</a>
+                    <a href="./reservas.html">Reservas</a>
+                    <a href="./tarifas.html">Tarifas</a>
+                    <a href="./chegar.html">Como Chegar</a>
+                </nav>
+    </header>
+        <div id="lateral">
+            <div id="gradiente">
+                <h2>Como Chegar</h2>
+                <p></p>
+                <h3><strong>Clique nos balões verdes para visualizar os pontos de referência:</strong></h3>
+                    <div id="descrição">
+                        <h5>
+                            <img src="mapa.jpg" alt="mapa" usemap="#mapa" width="565" height="350">
+                            <map name="mapa">
+                                <area shape="rect" coords="90,125,180,163" href="hotelmantiqueira.html" alt="hotelmantiqueira">
+                                <area shape="rect" coords="115,229,190,272" href="campofutebol.html" alt="campofutebol">
+                                <area shape="rect" coords="290,224,380,261" href="home.html" alt="pousadaserraverde">
+                            </map>
+                        </h5>
+                    </div>
+                <h4>Desenvolvido por Tech Hotelaria</h4>
+            </div>
+        </div> 
+        </main> 
+</body>
+</html>
